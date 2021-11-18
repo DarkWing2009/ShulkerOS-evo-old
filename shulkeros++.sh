@@ -1,22 +1,47 @@
-#!/bin/sh
-echo "print(What Game Would You Like To Play?:
-1. Guess The Number
-2. New RPG
-3. Rock Paper Scissors
-4. Business Simulator
-5. Kingdom Sim"
-read Choice
-clear -x
-case $Choice in
-  1)
-    python ./guessTheNumber.py
-    ;;
-  2)
-    python ./NewRPG.py
-    ;;
-  3 | 4| 5)
-    echo "Sorry, coming soon"
-    ;;
-  *)
-    echo "Don't do that, you are wasting your computer memory"
-esac
+source games.sh
+
+while true
+do
+echo "
+
+
+
+
+
+
+
+
+
+
+
+
+Welcome to ShulkerOS evo
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Powered by ShulkerOS++"
+sleep 3
+clear
+
+echo "Welcome (under development)
+
+
+
+
+1. Games
+2. Email
+3. App Store
+4. Internet Browser
+5. Terminal"
+done
