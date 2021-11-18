@@ -32,7 +32,7 @@ Welcome to ShulkerOS evo
 
 Powered by ShulkerOS++"
 sleep 3
-clear
+clear -x
 
 echo "Welcome (under development)
 
