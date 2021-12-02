@@ -14,10 +14,17 @@ case $Choice in
   2)
     python ./NewRPG.py
     ;;
-  3 | 4| 5)
-    echo "Sorry, coming soon"
+  3)
+    python ./RockPaperScissors.py
+    ;;
+  4)
+    python ./BuisnessSim.py
+    ;;
+  5)
+    clang++ KingdomSimulator.cpp -o KingdomSimulator && ./KingdomSimulator
     ;;
   *)
-    echo "Don't do that, you are wasting your computer memory"
+    echo "No"
+    ;;
 esac
 }

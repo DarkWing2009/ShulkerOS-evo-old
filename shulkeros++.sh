@@ -44,4 +44,20 @@ echo "Welcome (under development)
 3. App Store
 4. Internet Browser
 5. Terminal"
+read ShulkerBox
+clear -x
+case $ShulkerBox in
+  1)
+    game
+    ;;
+  2 | 3 | 4)
+    echo "Coming Soon!"
+    ;;
+  5)
+    bash
+    ;;
+  *)
+    echo "No"
+    ;;
+esac
 done
