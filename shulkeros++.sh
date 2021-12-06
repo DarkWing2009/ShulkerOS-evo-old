@@ -33,8 +33,9 @@ Welcome to ShulkerOS evo
 Powered by ShulkerOS++"
 sleep 3
 clear -x
-
-echo "Welcome (under development)
+python ./Login.py
+clear -x
+echo "Welcome User
 
 
 
@@ -55,9 +56,6 @@ case $ShulkerBox in
     ;;
   5)
     bash
-    ;;
-  *)
-    echo "No"
     ;;
 esac
 done
